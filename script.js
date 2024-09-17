@@ -11,4 +11,4 @@ function Display(){
     }
     setTimeout(Display, 100);
 }
-Display()
+setTimeout(Display, 2000);
