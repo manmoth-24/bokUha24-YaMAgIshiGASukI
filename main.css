@@ -1,0 +1,28 @@
+body{
+    background-image: url("背景.jpg");
+    background-size: cover;
+}
+main{
+    padding: 10% 0;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px #333;
+}
+h1{
+    opacity: 0;
+}
+p{
+    margin-top: 500px;
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    /* ここにスマホ用のスタイルを記述 */
+    main{
+        padding: 50% 0;
+        height: 100%;
+        text-align: center;
+        font-size: 1.3em;
+        text-shadow: 2px 2px #333;
+    }
+}
